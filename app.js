@@ -5,24 +5,24 @@ const girls = {
       name: "小薇",
       age: 24,
       tags: "今晚可約｜健談主動",
-      line: "https://line.me/ti/p/xiaorou_tp_xiaowei",
-      photo: "",
+      line: "https://line.me/ti/p/~ty1xi",
+      photo: "images/girl-01.jpg",
     },
     {
       id: "tp-2",
       name: "語婷",
       age: 22,
       tags: "可過夜｜短髮可愛",
-      line: "https://line.me/ti/p/xiaorou_tp_yuting",
-      photo: "",
+      line: "https://line.me/ti/p/~ty1xi",
+      photo: "images/girl-02.jpg",
     },
     {
       id: "tp-3",
       name: "安琪",
       age: 26,
       tags: "輕熟女｜會撒嬌",
-      line: "https://line.me/ti/p/xiaorou_tp_anqi",
-      photo: "",
+      line: "https://line.me/ti/p/~ty1xi",
+      photo: "images/girl-03.jpg",
     },
   ],
   taichung: [
@@ -31,24 +31,24 @@ const girls = {
       name: "蔓蔓",
       age: 23,
       tags: "台中可約｜身材好",
-      line: "https://line.me/ti/p/xiaorou_tc_manman",
-      photo: "",
+      line: "https://line.me/ti/p/~p50sp",
+      photo: "images/girl-04.jpg",
     },
     {
       id: "tc-2",
       name: "小雨",
       age: 25,
       tags: "可出差｜晚點回也行",
-      line: "https://line.me/ti/p/xiaorou_tc_xiaoyu",
-      photo: "",
+      line: "https://line.me/ti/p/~p50sp",
+      photo: "images/girl-05.jpg",
     },
     {
       id: "tc-3",
       name: "詩涵",
       age: 21,
       tags: "學生臉｜第一次找伴",
-      line: "https://line.me/ti/p/xiaorou_tc_shihan",
-      photo: "",
+      line: "https://line.me/ti/p/~p50sp",
+      photo: "images/girl-06.jpg",
     },
   ],
   kaohsiung: [
@@ -57,27 +57,35 @@ const girls = {
       name: "喬喬",
       age: 27,
       tags: "高雄夜貓｜敢玩",
-      line: "https://line.me/ti/p/xiaorou_kh_qiaoqiao",
-      photo: "",
+      line: "https://line.me/ti/p/~kt7m4",
+      photo: "images/girl-07.jpg",
     },
     {
       id: "kh-2",
       name: "心心",
       age: 24,
       tags: "可到府｜低調私密",
-      line: "https://line.me/ti/p/xiaorou_kh_xinxin",
-      photo: "",
+      line: "https://line.me/ti/p/~kt7m4",
+      photo: "images/girl-08.jpg",
     },
     {
       id: "kh-3",
       name: "妮妮",
       age: 22,
       tags: "南部女孩｜今晚有空",
-      line: "https://line.me/ti/p/xiaorou_kh_nini",
-      photo: "",
+      line: "https://line.me/ti/p/~kt7m4",
+      photo: "images/girl-09.jpg",
     },
   ],
 };
+
+function lineId(url) {
+  try {
+    return decodeURIComponent(url.split("/").pop() || "").replace(/^~/, "");
+  } catch {
+    return "";
+  }
+}
 
 function renderGirl(girl) {
   const photo = girl.photo
@@ -97,7 +105,7 @@ function renderGirl(girl) {
           <span class="girl__age">${girl.age} 歲</span>
         </div>
         <p class="girl__tags">${girl.tags}</p>
-        <span class="girl__action">點擊加 Line →</span>
+        <span class="girl__action">點擊加 Line → ${lineId(girl.line)}</span>
       </div>
     </a>
   `;
