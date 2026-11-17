@@ -6,7 +6,7 @@ const girls = {
       age: 24,
       tags: "今晚可約｜健談主動",
       line: "https://line.me/ti/p/~ty1xi",
-      photo: "images/girl-01.jpg",
+      photo: "girl-01.jpg",
     },
     {
       id: "tp-2",
@@ -14,7 +14,7 @@ const girls = {
       age: 22,
       tags: "可過夜｜短髮可愛",
       line: "https://line.me/ti/p/~ty1xi",
-      photo: "images/girl-02.jpg",
+      photo: "girl-02.jpg",
     },
     {
       id: "tp-3",
@@ -22,7 +22,7 @@ const girls = {
       age: 26,
       tags: "輕熟女｜會撒嬌",
       line: "https://line.me/ti/p/~ty1xi",
-      photo: "images/girl-03.jpg",
+      photo: "girl-03.jpg",
     },
   ],
   taichung: [
@@ -32,7 +32,7 @@ const girls = {
       age: 23,
       tags: "台中可約｜身材好",
       line: "https://line.me/ti/p/~p50sp",
-      photo: "images/girl-04.jpg",
+      photo: "girl-04.jpg",
     },
     {
       id: "tc-2",
@@ -40,7 +40,7 @@ const girls = {
       age: 25,
       tags: "可出差｜晚點回也行",
       line: "https://line.me/ti/p/~p50sp",
-      photo: "images/girl-05.jpg",
+      photo: "girl-05.jpg",
     },
     {
       id: "tc-3",
@@ -48,7 +48,7 @@ const girls = {
       age: 21,
       tags: "學生臉｜第一次找伴",
       line: "https://line.me/ti/p/~p50sp",
-      photo: "images/girl-06.jpg",
+      photo: "girl-06.jpg",
     },
   ],
   kaohsiung: [
@@ -58,7 +58,7 @@ const girls = {
       age: 27,
       tags: "高雄夜貓｜敢玩",
       line: "https://line.me/ti/p/~kt7m4",
-      photo: "images/girl-07.jpg",
+      photo: "girl-07.jpg",
     },
     {
       id: "kh-2",
@@ -66,7 +66,7 @@ const girls = {
       age: 24,
       tags: "可到府｜低調私密",
       line: "https://line.me/ti/p/~kt7m4",
-      photo: "images/girl-08.jpg",
+      photo: "girl-08.jpg",
     },
     {
       id: "kh-3",
@@ -74,7 +74,7 @@ const girls = {
       age: 22,
       tags: "南部女孩｜今晚有空",
       line: "https://line.me/ti/p/~kt7m4",
-      photo: "images/girl-09.jpg",
+      photo: "girl-09.jpg",
     },
   ],
 };
