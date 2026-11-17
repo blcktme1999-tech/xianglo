@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>小柔紅娘｜想約就約，小柔幫你牽到人</title>
-  <meta name="description" content="小柔紅娘 — 台北、台中、高雄一對一私密牽線。想約就約。" />
+  <title>小柔｜台北・台中・高雄</title>
+  <meta name="description" content="小柔 — 台北、台中、高雄。慢慢挑，私訊聊聊。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
@@ -16,11 +16,11 @@
   <header class="hero">
     <div class="hero__veil"></div>
     <div class="hero__content">
-      <p class="brand">小柔紅娘</p>
-      <h1 class="headline">想約就約，小柔幫你牽到人</h1>
-      <p class="support">台北・台中・高雄｜一對一私密牽線，點了直接加 Line</p>
+      <p class="brand">小柔</p>
+      <h1 class="headline">今晚想認識誰？先慢慢挑</h1>
+      <p class="support">台北・台中・高雄｜看對眼再私訊</p>
       <div class="hero__cta">
-        <a class="btn" href="#taipei">往下滑選女孩</a>
+        <a class="btn" href="#taipei">往下看看</a>
       </div>
     </div>
   </header>
@@ -29,8 +29,8 @@
     <section class="region" id="taipei" data-city="台北">
       <div class="region__head">
         <h2>台北</h2>
-        <p>今晚想約北區的，先看這幾位</p>
-        <a class="line-btn" href="https://line.me/ti/p/~ty1xi" target="_blank" rel="noopener noreferrer">加台北 Line：ty1xi</a>
+        <p>北區這幾位，先認識一下</p>
+        <a class="line-btn" href="https://line.me/ti/p/~ty1xi" target="_blank" rel="noopener noreferrer">私訊聊聊：ty1xi</a>
       </div>
       <div class="grid" data-region="taipei"></div>
     </section>
@@ -38,8 +38,8 @@
     <section class="region" id="taichung" data-city="台中">
       <div class="region__head">
         <h2>台中</h2>
-        <p>中部可約，私訊回得快</p>
-        <a class="line-btn" href="https://line.me/ti/p/~p50sp" target="_blank" rel="noopener noreferrer">加台中 Line：p50sp</a>
+        <p>中部這幾位，回訊通常很快</p>
+        <a class="line-btn" href="https://line.me/ti/p/~p50sp" target="_blank" rel="noopener noreferrer">私訊聊聊：p50sp</a>
       </div>
       <div class="grid" data-region="taichung"></div>
     </section>
@@ -47,16 +47,16 @@
     <section class="region" id="kaohsiung" data-city="高雄">
       <div class="region__head">
         <h2>高雄</h2>
-        <p>南部夜貓，敢約再點</p>
-        <a class="line-btn" href="https://line.me/ti/p/~kt7m4" target="_blank" rel="noopener noreferrer">加高雄 Line：kt7m4</a>
+        <p>南部這幾位，夜晚也常在線</p>
+        <a class="line-btn" href="https://line.me/ti/p/~kt7m4" target="_blank" rel="noopener noreferrer">私訊聊聊：kt7m4</a>
       </div>
       <div class="grid" data-region="kaohsiung"></div>
     </section>
   </main>
 
   <footer class="footer">
-    <p class="footer__brand">小柔紅娘</p>
-    <p class="footer__note">僅供成年使用者。照片與資料為示意佔位，之後可替換成真實內容。</p>
+    <p class="footer__brand">小柔</p>
+    <p class="footer__note">僅供成年使用者瀏覽。</p>
   </footer>
 
   <script src="app.js"></script>

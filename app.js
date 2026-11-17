@@ -4,7 +4,7 @@ const girls = {
       id: "tp-1",
       name: "小薇",
       age: 24,
-      tags: "今晚可約｜健談主動",
+      tags: "健談主動｜笑容很甜",
       line: "https://line.me/ti/p/~ty1xi",
       photo: "girl-01.jpg",
     },
@@ -12,7 +12,7 @@ const girls = {
       id: "tp-2",
       name: "語婷",
       age: 22,
-      tags: "可過夜｜短髮可愛",
+      tags: "短髮可愛｜陪聊很甜",
       line: "https://line.me/ti/p/~ty1xi",
       photo: "girl-02.jpg",
     },
@@ -20,7 +20,7 @@ const girls = {
       id: "tp-3",
       name: "安琪",
       age: 26,
-      tags: "輕熟女｜會撒嬌",
+      tags: "輕熟氣質｜會撒嬌",
       line: "https://line.me/ti/p/~ty1xi",
       photo: "girl-03.jpg",
     },
@@ -30,7 +30,7 @@ const girls = {
       id: "tc-1",
       name: "蔓蔓",
       age: 23,
-      tags: "台中可約｜身材好",
+      tags: "身材亮眼｜好聊",
       line: "https://line.me/ti/p/~p50sp",
       photo: "girl-04.jpg",
     },
@@ -38,7 +38,7 @@ const girls = {
       id: "tc-2",
       name: "小雨",
       age: 25,
-      tags: "可出差｜晚點回也行",
+      tags: "低調溫柔｜晚點也常回",
       line: "https://line.me/ti/p/~p50sp",
       photo: "girl-05.jpg",
     },
@@ -46,7 +46,7 @@ const girls = {
       id: "tc-3",
       name: "詩涵",
       age: 21,
-      tags: "學生臉｜第一次找伴",
+      tags: "清新臉蛋｜第一次認識",
       line: "https://line.me/ti/p/~p50sp",
       photo: "girl-06.jpg",
     },
@@ -56,7 +56,7 @@ const girls = {
       id: "kh-1",
       name: "喬喬",
       age: 27,
-      tags: "高雄夜貓｜敢玩",
+      tags: "夜貓屬性｜敢表現",
       line: "https://line.me/ti/p/~kt7m4",
       photo: "girl-07.jpg",
     },
@@ -64,7 +64,7 @@ const girls = {
       id: "kh-2",
       name: "心心",
       age: 24,
-      tags: "可到府｜低調私密",
+      tags: "私密感｜慢慢聊",
       line: "https://line.me/ti/p/~kt7m4",
       photo: "girl-08.jpg",
     },
@@ -72,7 +72,7 @@ const girls = {
       id: "kh-3",
       name: "妮妮",
       age: 22,
-      tags: "南部女孩｜今晚有空",
+      tags: "南部女孩｜今晚在線",
       line: "https://line.me/ti/p/~kt7m4",
       photo: "girl-09.jpg",
     },
@@ -97,7 +97,7 @@ function renderGirl(girl) {
     : "girl__photo girl__photo--placeholder";
 
   return `
-    <a class="girl" href="${girl.line}" target="_blank" rel="noopener noreferrer" aria-label="加 ${girl.name} 的 Line">
+    <a class="girl" href="${girl.line}" target="_blank" rel="noopener noreferrer" aria-label="私訊 ${girl.name}">
       <div class="${photoClass}">${photo}</div>
       <div class="girl__body">
         <div class="girl__meta">
@@ -105,7 +105,7 @@ function renderGirl(girl) {
           <span class="girl__age">${girl.age} 歲</span>
         </div>
         <p class="girl__tags">${girl.tags}</p>
-        <span class="girl__action">點擊加 Line → ${lineId(girl.line)}</span>
+        <span class="girl__action">點擊私訊 → ${lineId(girl.line)}</span>
       </div>
     </a>
   `;
